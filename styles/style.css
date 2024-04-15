@@ -1,0 +1,70 @@
+body {
+  background-color: #f7f7f7;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #ff6600; 
+  font-weight: bold;
+}
+
+.form-label {
+  color: #ff6600; 
+}
+
+.form-control, .form-check-input {
+  border-radius: 8px;
+  border: 1px solid #ff6600; 
+}
+
+.form-control:focus, .form-check-input:focus {
+  border-color: #ff6600; 
+  box-shadow: 0 0 5px rgba(255, 102, 0, 0.5); 
+}
+
+.form-check-label {
+  color: #333;
+}
+
+button {
+  border-radius: 8px;
+}
+
+.btn-primary {
+  background-color: #5bc0de;
+  border-color: #5bc0de;
+}
+
+.btn-secondary {
+  background-color: #f0ad4e;
+  border-color: #f0ad4e;
+}
+
+.btn-primary:hover {
+  background-color: #31b0d5;
+}
+
+.btn-secondary:hover {
+  background-color: #ec971f;
+}
+
+body:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://i.ebayimg.com/images/g/8T4AAOSw1kxdvjKx/s-l1600.jpg');
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}

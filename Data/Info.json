@@ -1,0 +1,61 @@
+{
+    "user": {
+        "name": "Sam Maldonado",
+        "email": "Smaldonado@una.edu",
+        "dob": "2000-01-15",
+        "age": "20",
+        "year": "Junior",
+        "team": "Team E",
+        "phone": "2565071718"
+        },
+    "ages": [
+        {
+            "age": "18",
+            "years": [
+                {
+                    "year": "Freshman",
+                    "teams": ["Team A", "Team B"]
+                },
+                {
+                    "year": "Sophomore",
+                    "teams": ["Team C", "Team D"]
+                }
+            ]
+        },
+        {
+            "age": "19",
+            "years": [
+                {
+                    "year": "Sophomore",
+                    "teams": ["Team C", "Team D"]
+                },
+                {
+                    "year": "Junior",
+                    "teams": ["Team E", "Team F"]
+                }
+            ]
+        },
+        {
+            "age": "20",
+            "years": [
+                {
+                    "year": "Junior",
+                    "teams": ["Team E", "Team F"]
+                },
+                {
+                    "year": "Senior",
+                    "teams": ["Team G", "Team H"]
+                }
+            ]
+        },
+        {
+            "age": "21",
+            "years": [
+                {
+                    "year": "Senior",
+                    "teams": ["Team G", "Team H"]
+                }
+            ]
+        }
+    ]
+}
